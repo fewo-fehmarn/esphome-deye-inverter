@@ -327,12 +327,7 @@ sensor:
     name: "Battery 2 Temperature"
     register_type: holding
     address: 596
-    unit_of_measurement: "°C"
-    device_class: temperature
-    accuracy_decimals: 0
-    filters:
-      - offset: -1000
-      - multiply: 0.1
+    accuracy_decimals: 2
     value_type: U_WORD
     disabled_by_default: true
     icon: "mdi:thermometer-lines"
