@@ -333,7 +333,7 @@ sensor:
     filters:
       - offset: -1000
       - multiply: 0.1
-    value_type: S_WORD
+    value_type: U_WORD
     disabled_by_default: true
     icon: "mdi:thermometer-lines"
 
